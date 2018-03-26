@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=Edge">
+    <meta content="always" name="referrer">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <title>{dede:field.seotitle /}</title>
+    <meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}">
+    <meta name="keywords" content="{dede:field name='keywords'/}">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/effect.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/pro_drop_1.css">
+    <script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="/js/effect.js"></script>
+</head>
+
+<body>{dede:include filename="head.htm"/}
+    <div class="list_banner" style="background:url(/images/lianxiwomen.jpg) no-repeat center top"></div>
+    <div class="positionBox">当前位置：{dede:field name='position'/}</div>
+    <div class="listBox hidden">{dede:include filename="left.htm"/}
+        <div class="contUs fade_block fade_up fade_delay1">
+            <div class="contUs_l l_left">
+                <img src="/images/contact.png" width="540" height="360">
+            </div>
+            <div class="contUs_r l_left">
+                <h2>
+                    <img src="/images/cont01.jpg" width="326" height="79">
+                </h2>
+                <p>
+                    <img src="/images/cont02.jpg">郑州市郑东新区平安大道黄河南路交叉口</p>
+                <p>
+                    <img src="/images/cont03.jpg">0371-67826666</p>
+                <p>
+                    <img src="/images/cont04.jpg">haiwen@admin.com</p>
+                <p>
+                    <img src="/images/cont06.jpg">www.hwbaby.com
+                    <span>
+                        <a href="http://ditu.baidu.com">指引导航</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="ditu">{dede:field.content/}</div>{dede:include filename="footer.htm"/}</body>
+
+</html>
